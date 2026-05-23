@@ -1,0 +1,22 @@
+{
+    "name": "kwangya/ex-3-1-library-program",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+        "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lorenzowt",
+            "email": "lorenzomfw@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.1"
+    }
+}
